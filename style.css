@@ -1,0 +1,84 @@
+@import url();
+body{
+    font-family: 'poppins',sans-serif;
+}
+
+li{
+    color: yellow;
+}
+
+.container{
+    color: red;
+    background-color: rgb(45, 173, 34);
+    height: 100%;
+    width: 400px;;
+    font-size: 1rem;
+    padding: 20px;
+    border: 4px solid black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: blue;
+    color: yellow;
+}
+
+#list{
+    color: yellow;
+}
+
+.para{
+    background-color: white
+}
+
+.navbar{
+    display: flex;
+    float: right;
+    color: black;
+}
+.list-non-bullet li{
+  display: inline;
+  padding: 1rem;
+  margin: 1rem ;
+
+}
+
+/* code for propper navigation bar */
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
